@@ -32,11 +32,11 @@ return `
          <button id="button">Add to bag</button>
   </form>
     </div>
-
-
     </div>
-`
+`;
+
 }
+
 
 function getDatestorage() {
 let data = [];

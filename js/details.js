@@ -1,6 +1,6 @@
 
 import { getDate, createDateils, getDatestorage } from "./functions.js";
-const dateils = document.getElementById('dateils')
+const dateils = document.getElementById('dateils');
 
 
 
@@ -39,3 +39,4 @@ document.addEventListener('DOMContentLoaded', function() {
             console.log(err);
           })
 })
+

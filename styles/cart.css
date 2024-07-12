@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+}
+.container {
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.main{
+    margin-top: 100px
+;}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.item-details {
+    display: flex;
+}
+
+.item-details img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.item-info h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.item-info p {
+    margin: 5px 0;
+}
+
+.color-circle {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.remove-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.remove-link:hover {
+    text-decoration: underline;
+}
+
+.item-price p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.summary {
+    background-color: #f1f3f5;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.summary p {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.summary p strong {
+    font-size: 18px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+header {
+    background-color: aqua;
+    padding: 30px 0px;
+    transition: all 2s;
+}
+
+header:hover{
+background-color:rgb(238, 255, 0);
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__container {
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: transparent;
+     border: none;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    width: 50px;
+    height: 40px;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+header ul a:hover {
+
+    border: 1px solid rgb(26, 24, 24);
+    color: rgb(10, 246, 128);
+    border-radius: 10px;
+    border-color: rgb(1, 1, 1);
+}

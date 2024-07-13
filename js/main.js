@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             card.addEventListener('click', function(event) {
                 const cardId = this.getAttribute('data-id');
                 if(cardId) {
-                    window.location.assign(`http://127.0.0.1:5500/pages/details.html?id=${cardId}`)
+                    window.location.assign(`http://127.0.0.1:5500${cardId}`)
                 }
             })
           })
